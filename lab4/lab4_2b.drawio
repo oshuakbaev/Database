@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-10-09T10:48:51.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.5.0" etag="ORI1aiRI7yDjvFbqAqxg" type="github"><diagram id="dcv7hLwRroEL3I3RVGKS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-09T11:16:16.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="z42Nsz-gyQIEyTgQ6rqr" version="15.5.0" type="github">
+  <diagram id="dcv7hLwRroEL3I3RVGKS" name="Page-1">
+    <mxGraphModel dx="752" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WK9u73Rf976aVCkhY1xI-1" value="University" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-2" value="budget&#xa;number_of_grants&#xa;number_of_student" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="WK9u73Rf976aVCkhY1xI-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-3" value="Dormitory" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-4" value="room_number &#xa;student_name &#xa;student_id " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="WK9u73Rf976aVCkhY1xI-3">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-5" value="Office of the registrar" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-6" value="main_manager&#xa;employee&#xa;employee_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="WK9u73Rf976aVCkhY1xI-5">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-7" value="Teacher" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-8" value="ID&#xa;name &#xa;Salary " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="WK9u73Rf976aVCkhY1xI-7">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-9" value=" Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="630" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9u73Rf976aVCkhY1xI-10" value="course_id&#xa;title&#xa;credits " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="WK9u73Rf976aVCkhY1xI-9">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
