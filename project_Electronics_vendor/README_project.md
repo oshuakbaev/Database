@@ -1,5 +1,5 @@
-#Database
-#Shuakbayev Olzhas 
-#Kuanyshbek’s Group
-#Project - Electronics vendor 
+# Database
+# Shuakbayev Olzhas 
+# Kuanyshbek’s Group
+# Project - Electronics vendor 
 
