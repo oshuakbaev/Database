@@ -35,28 +35,19 @@ CREATE FUNCTION inc_3(val integer,out boolean_1 bool) AS
     LANGUAGE PLPGSQL;
 
 --1.d
-create table users(
-    log_in varchar(32),
-    pass_word varchar(32),
-    primary key (log_in)
-);
 
-
-insert into users(log_in, pass_word) values ('olzhi', 'olzik29550@gmalf.cww');
-insert into users(log_in, pass_word) values ('olzhi2', 'olzik29550@gmalf.cww');
-insert into users(log_in, pass_word) values ('olzhi3', 'olzik29550@gmalf.cww');
-
-create or replace function check_password(login varchar(64), pass__word varchar(64)) returns bool as $$
-    declare
-        pswrd varchar(64);
-    begin
-        select pass_word from users where
-                log_in = login into pswrd;
-        return pswrd = pass__word;
-    end;
-$$ language plpgsql;
-
-select check_password('olzhi', 'olzikr29550@gmalf.cww');
+create or replace function isvalid(a varchar) returns bool as
+    $$
+        begin
+            if length(a) > 7 then
+                return true;
+            else
+                return false;
+            end if;
+        end;
+    $$
+language plpgsql;
+select isvalid('qwerty12');
 
 --1e
 CREATE FUNCTION inc_4(val integer,out val1 integer, out val2 integer) AS
